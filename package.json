@@ -15,12 +15,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mattschaller/agentic-task-spec"
+    "url": "git+https://github.com/mattschaller/agentic-task-spec.git"
   },
   "author": "Matthew Schaller <matt@mattschaller.com>",
   "type": "module",
   "bin": {
-    "agentic-task-spec": "./dist/cli.js"
+    "agentic-task-spec": "dist/cli.js"
   },
   "exports": {
     ".": {
